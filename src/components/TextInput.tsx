@@ -20,7 +20,7 @@ export interface TextInputIconProps {
   children: ReactNode
 }
 
-function TextInputIcon() {
+function TextInputIcon(props: TextInputIconProps) {
   return (
     <Slot className='w-6 h-6 text-gray-400'>
       {props.children}
